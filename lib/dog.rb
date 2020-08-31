@@ -8,3 +8,6 @@ class Dog
   end
 end
 
+def Dog.bark
+  puts "woof!"
+end
