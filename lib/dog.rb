@@ -8,6 +8,10 @@ class Dog
   end
 end
 
+
+fido = Dog.new
+fido.name = "Fido"
+
 def Dog.bark
   puts "woof!"
 end
